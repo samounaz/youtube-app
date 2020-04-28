@@ -22,7 +22,7 @@ class App extends Component {
 			params: {
 				part: 'snippet',
 				maxResults: 5,
-				key: 'AIzaSyDZGLmfCyEO2vl5LcuPzYjwD4fJuyiGywQ',
+				key: 'personalKey',
 				q: searchTerm
 			}
 		});
