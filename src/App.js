@@ -26,7 +26,6 @@ class App extends Component {
 				q: searchTerm
 			}
 		});
-		console.log( response.data.items );
 		this.setState({ videos: response.data.items, selectedVideo: response.data.items[0] })
 	}
 
